@@ -6,6 +6,19 @@ app.get('/',(req,res)=>{
     res.send('first github repo');
 });
 
-app.listen(3030,()=>{
+app.listen(process.env.PORT || 3030,()=>{
     console.log('app listening on port 3030');
 });
+
+
+
+
+
+
+//heroku login
+//
+//hroku create
+//git push heroku master
+//heroku open
+
+//heroku logs
